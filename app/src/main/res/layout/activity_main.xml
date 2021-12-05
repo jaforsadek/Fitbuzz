@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+  <androidx.appcompat.widget.Toolbar
+
+      android:id="@+id/toolBar"
+      android:layout_width="match_parent"
+      android:layout_height="?attr/actionBarSize"
+      android:background="@color/colorPrimaryDark"
+      android:textAlignment="textEnd"
+      android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar"
+      app:title="Fitbuzz"
+      app:titleTextColor="#FFF"
+      android:gravity="end" />
+
+    <!--<ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:padding="5.0dp"
+            android:text="Light Workout"
+            android:textColor="#ff000000"
+            android:textSize="20.0sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:padding="5.0dp"
+            android:text="Days 60"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5.0dp"
+            android:text="Every day 15 MIN"
+            android:textColor="#ffff5722"
+            android:textStyle="bold"
+
+            />
+    </ScrollView>
+
+
+-->
+
+</LinearLayout>
